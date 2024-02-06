@@ -1,0 +1,61 @@
+body{
+    background-image: url(/images/m.jpeg.jpg);
+    background-size: str;
+    
+}
+h4{
+    all: unset;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    border: none;
+    padding: 0 10% 0 10%;
+}
+form{
+    background-color: rgba(63, 59, 59, 0.5); 
+    padding: 40px 30px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+input{
+    all: unset;
+    width: 400px; 
+    background-color:rgb(159, 204, 216, 0.2) ;
+    border: 1px solid black;
+}
+
+#button{
+all: unset;
+width: 100px;
+padding: 9px;
+border-radius: 20px;
+border: none;
+font-size: 16px;
+background-color: rgb(44, 94, 109, 0.2);
+color:white;
+text-align: center;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#button:hover{
+    background-color: white;
+    color: black;
+}
+#button {
+    margin-left: 35%;
+}
+
+/*.form{
+    width: 600px;
+    height: 200px;
+    border: 1px;
+    background-color: aqua;
+    text-align: center;
+    padding: 30px;
+}

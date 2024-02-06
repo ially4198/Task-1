@@ -1,8 +1,20 @@
 body{
     background-image: url(/images/m.jpeg.jpg);
     background-size: cover;
+    background-position: center;
     
 }
+input:invalid:focus{
+    border: 1px solid red;
+}
+.error{
+    color: red;
+    display: none;
+}
+input:invalid:focus + .error {
+    display: block;
+  }
+  
 h4{
     all: unset;
     text-align: center;
@@ -29,6 +41,8 @@ input{
     width: 400px; 
     background-color:rgb(159, 204, 216, 0.2) ;
     border: 1px solid black;
+    height: 25px;
+    
 }
 
 #button{
@@ -50,6 +64,7 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 #button {
     margin-left: 35%;
 }
+
 
 /*.form{
     width: 600px;

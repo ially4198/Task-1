@@ -13,12 +13,15 @@
         
         <form action="">
             <h4 style="color: white; display: block;"> LOGIN HERE  <i class="fa-solid fa-arrow-down"></i></h4>
-            <label for="username" id="username">USERNAME:</label>
-            <input type="text" name="username" ><br><br>
-            <label for="matric-no">MATRIC NO:</label>
+            <label for="email">EMAIL:</label><br>
+            <input type="email" name="email" id="email" required >
+            <span class="error" id="emailError">Invalid email address</span><br><br>
+            <label for="matric-no">MATRIC NO:</label><br>
             <input type="text" name="matric-no." id=""><br><br>
-            <label for="password" id="password">PASSWORD:</label>
-            <input type="password" name="password" id=""><br><br>
+            <label for="password" >PASSWORD:</label><br>
+            <input type="password" name="password" id="password" required>
+            <span class="error" id="passwordError">Invalid email address </span><br><br>
+
             <input type="submit" value="SUBMIT" id="button">
         </form>
     </div>

@@ -14,7 +14,16 @@ input:invalid:focus{
 input:invalid:focus + .error {
     display: block;
   }
-  
+  input:valid:focus{
+    border:1px solid rgb(21, 190, 21);
+  }
+  .correct{
+    color:rgb(21, 190, 21) ;
+    display: none;
+  }
+  input:valid:focus + .correct{
+    display: block;
+  }
 h4{
     all: unset;
     text-align: center;

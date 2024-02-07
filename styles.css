@@ -81,11 +81,14 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 @media screen and (max-width:600px) {
     input{
-        width: 200px;
+        width: 250px;
         
     }
     #button{
         margin-left: 25%;
+    }
+    .form{
+        padding: 0 5% 0 5%;
     }
 }
 

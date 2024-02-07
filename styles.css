@@ -2,7 +2,7 @@ body{
     background-image: url(/images/m.jpeg.jpg);
     background-size: cover;
     background-position: center;
-    
+    background-repeat:no-repeat;
 }
 input:invalid:focus{
     border: 1px solid red;
@@ -73,13 +73,20 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 #button {
     margin-left: 35%;
 }
-
-
-/*.form{
-    width: 600px;
-    height: 200px;
-    border: 1px;
-    background-color: aqua;
-    text-align: center;
-    padding: 30px;
+@media screen and (max-width:768px) {
+    input{
+        width: 300px;
+        
+    }
 }
+@media screen and (max-width:600px) {
+    input{
+        width: 200px;
+        
+    }
+    #button{
+        margin-left: 25%;
+    }
+}
+
+
